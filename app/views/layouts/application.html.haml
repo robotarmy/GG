@@ -1,0 +1,12 @@
+!!!
+%html
+  %head
+    %title
+      GG
+    = stylesheet_link_tag    "application" 
+    = javascript_include_tag "application"
+    = javascript_include_tag "plupload/pupload.full.js"
+    = csrf_meta_tags 
+  %body
+    = yield
+
