@@ -1,11 +1,16 @@
 source 'http://rubygems.org'
 
+
+gem 'exifr'
+
 gem 'rails', '3.1.0.beta1'
 
 gem 'sqlite3'
 
 gem 'sass'
 gem 'haml'
+
+
 
 gem 'coffee-script'
 gem 'uglifier'
@@ -19,7 +24,7 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
+ gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :development,:test do
   gem 'rspec-rails'
@@ -28,4 +33,6 @@ group :test do
   # Pretty printed test output
   gem 'turn', :require => false
   gem 'capybara'
+  gem 'akephalos'
+  gem 'no_peeping_toms'
 end
